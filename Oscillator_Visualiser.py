@@ -81,6 +81,9 @@ def ask_plot_harmonic_oscillator(y, t, A,Function):
         print('Invalid input. The solution will not be plotted.')
 
 # Start the program
+print("This program can solve classical harmonic oscillation, damped and even quantum harmonic oscillator.")
+print("Give it a try! Please enter the parameters. ")
+
 A, w, phi, zeta, t, n = ask_parameters()
 
 y, t, A, Function = harmonic_oscillator(A, w, phi, zeta, t, n)
