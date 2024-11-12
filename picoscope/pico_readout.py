@@ -13,10 +13,11 @@ class PicoReadout:
 
     def run(self, ADecouple, BDecouple, ARange, BRange, min_collection_time):
         with find_unit() as device:
-            channel_configs = [ChannelConfig('A', True, ADecouple, ARange), ChannelConfig('B', True, BDecouple, BRange)]
-            timebase_options = TimebaseOptions(min_collection_time)
+            channel_configs = [ChannelConfig('A', True, ADecouple, ARange), 
+                            ChannelConfig('B', True, BDecouple, BRange)]
+            timebase_options = TimebaseOptions(min_collection_time = min_collection_time)
             times, voltages, overflow_warnings = device.capture_block(timebase_options, channel_configs)
-            return times, voltages, overflow_warnings
+        return times, voltages, overflow_warnings
 
     def __str__(self) -> str:
         return f'Picoscope Setting: ADecouple={self.ADecouple}, BDecouple={self.BDecouple}, ARange={self.ARange}, BRange={self.BRange}, min_collection_time={self.min_collection_time}'
