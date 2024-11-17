@@ -18,7 +18,7 @@ class PicoReadout:
         if BProbe == 'x1':
             self.BProbe = 1
         elif BProbe == 'x10':
-            self.BProbe = 1
+            self.BProbe = 10
         else:
             raise ValueError('Invalid BProbe value')
         self.min_collection_time = min_collection_time
