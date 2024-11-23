@@ -24,5 +24,5 @@ Nothing hard, just some notes and exercises. Enjoy!
 
 ### Physics Practicals
 + Experiment 6: Hysteresis used [this project](https://github.com/Chocolirz/IB-SciComp/tree/main/picoscope) to collect data from a picoscope (2206A).
-+ Experiment 5: Faraday Rotation used [this project](https://people.phy.cam.ac.uk/db106/pub/) during dythering. 
-+ Experiment 4: Funky pendulum used ... (not written yet). 
++ Experiment 5: Faraday Rotation used [this project](https://people.phy.cam.ac.uk/db106/pub/) in the PSD folder during dythering. The project was almost flawless, so there's no need to apply any modifications.
++ Experiment 4: Funky pendulum. I didn't have time to look into this, so I just used [Zhen's original version](https://github.com/Zzzzhen1/Funky_Pendulum). 
