@@ -28,6 +28,4 @@ Nothing hard, just some notes and exercises. Enjoy!
 + Experiment 4: Funky pendulum. I didn't have time to look into this, so I just used [Zhen's original version](https://github.com/Zzzzhen1/Funky_Pendulum). 
 
 ### Additional
-+ Yiran Ma (Peterhouse College) suggested that it's cool to do visualisation of collisions that can estimate $\pi$. I've done the basic calculations [here](https://github.com/Chocolirz/IB-SciComp/blob/main/pi_using_collisions.py). 
-
-The topic is indeed interesting, but I don't think it's a good way to estimate $\pi$ (see the short notes at the end of the script). It's always better to use MC. 
++ Yiran Ma (Peterhouse College) suggested that it's cool to do visualisation of collisions that can estimate $\pi$. I've done the basic calculations [here](https://github.com/Chocolirz/IB-SciComp/blob/main/pi_using_collisions.py). The topic is indeed interesting, but I don't think it's a good way to estimate $\pi$ (see the short notes at the end of the script). It's always better to use MC. 
