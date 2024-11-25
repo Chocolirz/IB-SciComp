@@ -52,3 +52,10 @@ def estimate_pi(n):
 # print the result
 for i in range(1, 7):
     print('The total number of collisions subject to n = ', i, 'is:', estimate_pi(i))
+
+'''
+Special notes:
+This method is accurate, but not good for the following reasons:
+1. When n gets large, the time of computations increases exponentially.
+2. The accuracy is limited by the number of digits we're using for velocities. 
+'''
