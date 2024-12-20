@@ -21,6 +21,8 @@ Nothing hard, just some notes and exercises. Enjoy!
 ### Oscillations, Waves, and Optics
 + [Q7: Simple Pendulum at large angles](https://github.com/Chocolirz/IB-SciComp/blob/main/OWO_Q7.ipynb)
 + [Q15: Reflection and transmission coefficients](https://github.com/Chocolirz/IB-SciComp/blob/main/OWO_Q15.ipynb)
++ [Q19: Propagation of Gausian Wave Packets](https://github.com/Chocolirz/IB-SciComp/blob/main/OWO_Q19.ipynb)
++ [Q31: Diffraction](https://github.com/Chocolirz/IB-SciComp/blob/main/OWO_Q31.ipynb)
 
 ### Physics Practicals
 + Experiment 6: Hysteresis used [this project](https://github.com/Chocolirz/IB-SciComp/tree/main/picoscope) to collect data from a picoscope (2206A).
